@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    The network topology shows three routers. You will configure NTP and Syslog on all routers. You will configure SSH on R3.
+
+Network Time Protocol (NTP) allows routers on the network to synchronize their time settings with an NTP server. A group of NTP clients that obtain time and date information from a single source have more consistent time settings and Syslog messages generated can be analyzed more easily. This can help when troubleshooting issues with network problems and attacks. When NTP is implemented in the network, it can be set up to synchronize to a private master clock, or to a publicly available NTP server on the Internet.
+
+The NTP Server is the master NTP server in this lab. You will configure the routers to allow the software clock to be synchronized by NTP to the time server. Also, you will configure the routers to periodically update the hardware clock with the time learned from NTP. Otherwise, the hardware clock will tend to gradually lose or gain time (drift) and the software clock and hardware clock may become out of synchronization with each other.
+
+The Syslog Server will provide message logging in this lab. You will configure the routers to identify the remote host (Syslog server) that will receive logging messages.
+
+You will need to configure timestamp service for logging on the routers. Displaying the correct time and date in Syslog messages is vital when using Syslog to monitor a network. If the correct time and date of a message is not known, it can be difficult to determine what network event caused the message.
+
+R2 is an ISP connected to two remote networks: R1 and R3. The local administrator at R3 can perform most router configurations and troubleshooting; however, since R3 is a managed router, the ISP needs access to R3 for occasional troubleshooting or updates. To provide this access in a secure manner, the administrators have agreed to use Secure Shell (SSH).
+
+You use the CLI to configure the router to be managed securely using SSH instead of Telnet. SSH is a network protocol that establishes a secure terminal emulation connection to a router or other networking device. SSH encrypts all information that passes over the network link and provides authentication of the remote computer. SSH is rapidly replacing Telnet as the remote login tool of choice for network professionals.
+</body>
+</html>

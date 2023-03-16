@@ -1,0 +1,88 @@
+/* reset css */
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    color: #000;
+    margin: 30px 200px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    background-image: url(./img/images\ \(1\).jfif);
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: #39f;
+    margin-top: 50px;
+    border-radius: 5px;
+
+
+}
+
+
+.img_cv{
+    flex: 3;
+    margin: 20px;
+    
+
+    
+}
+.img{
+    width:90%;
+    height: 90%px;
+    border-radius: 100%;
+    
+}
+.name_cv{
+    flex: 7;
+    margin: 100px;
+    
+    
+}
+
+
+.image{
+    width: 90%;
+    height: 90%;
+
+}
+
+.infor_name{
+    font-size: 35px;
+    font-weight: 700;
+    color:rgb(79, 53, 197);
+}
+.infor_major{
+    font-size: 25px;
+    color: rgb(63, 120, 177);
+    font-weight: 600;
+
+}
+h3{
+    color: rgb(99, 159, 220);
+    font-weight: 700;
+}
+
+.list{
+    list-style: none;
+    line-height: 30px;
+}
+.row
+{
+    padding: 10px;
+}
+input,
+textarea{
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid #39f;
+    padding: 10px 20px;
+}
+
+.btn{
+    background-color: #39f;
+    color: #fff;
+    margin-top: 30px;
+    border: rgb(8, 115, 192) solid 1px;
+    border-radius: 5px;
+}

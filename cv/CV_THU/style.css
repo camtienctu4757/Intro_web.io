@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0px 5px;
+    padding: 0;
+}
+
+.overview{
+    width: 100%;
+}
+
+.columns{
+    float: left;
+    padding-left:  8px;
+    padding-right: 8px;
+}
+.one-four{
+    width: 30%;
+    /* background-color: #ebf7d5; */
+    background: linear-gradient(#ebf7d5, white);    
+}
+
+.third-four{
+    width: 67%;
+}
+
+/* -------------- khung ben trai ------------- */
+.background{
+    text-align: center;
+}
+
+.seo-phi{
+    background-size: contain;
+    width: 30%;
+    border: 2px solid #034303;
+    margin: 3px 0 10px 1px;
+}
+
+.name{
+    font-size: 2rem;
+    /* width: 60%; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.intro{
+    text-align: center;
+}
+
+.one-item{
+    font-size: 1.5rem;
+    border-bottom: 2px solid #006400;
+    padding: 5px 10px;
+}
+
+.about{
+    float: left;
+}
+
+.text{
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.list{
+    padding-left: 10px;
+}
+
+.list-cont{
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*  ---------------- khung ben phai ----------- */
+
+.ticker{
+    position: relative;
+}
+
+.title{
+    margin: 10px 0px 0px;
+    position: relative;
+    background: #034303;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 1.7rem;
+    padding-left: 40px;
+    line-height: 38px;
+}
+
+.add{
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 8px 10px;
+}
+.list-product{
+    font-size: 1rem;
+    padding-left: 30px;
+}
+.text-intro{
+    font-size: 1.1rem;
+    padding: 5px 30px 0;
+}
+
+.stick{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border-right: 20px solid #147114;
+    border-bottom: 10px solid transparent;
+}
+
