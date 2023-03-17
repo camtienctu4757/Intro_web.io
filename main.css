@@ -1,4 +1,6 @@
-
+li{
+  list-style: none;
+}
 .header{
     position: relative;
     height: 90px;
@@ -10,6 +12,18 @@
     
 
 }
+.content_1{
+  color: rgb(15, 116, 83);
+  font-size: 20px;
+  list-style: 2px;
+  font-weight: 600;
+
+}
+.img_content1{
+  width: 100%;
+  border-radius: 20px;
+}
+
 
 @keyframes filling {
     from{
@@ -21,14 +35,14 @@
   }
   
   .container-text {
-    background-image:  url(./img/team3-02.png);
+    background-image:  url(./img/hinh-anh-thien-nhien.jpg);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    color:  #0c38d9;
+    color:  #01030c;
     /* padding-top: 10px; */
-    font-size: 170px;
+    font-size: 120px;
     font-family: 'Bungee', cursive;
-    animation: filling 3s ease forwards;
+    animation: filling 5s ease forwards;
     text-align: center;
   }
 
@@ -47,11 +61,45 @@
 }
 
 .name_intro{
-    color: rgb(48, 107, 218);
+    /* color: rgb(48, 107, 218); */
+    color: rgb(13, 219, 150);
     font-weight: 800;
     text-align: center;
 }
 
-.btn-primary{
-    margin-left: 3rem;
+
+
+/* css footer */
+
+.footer{
+  margin-top: 30px;
+  border: none;
+  border-top: 2px solid rgba(116, 49, 22, 0.8);
+}
+.footer__contact{
+  display: flex;
+  justify-content: space-between;
+}
+.footer__company,
+.footer__link,
+.footer__pay{
+  flex: 1;
+}
+
+.footer__head{
+  font-size: 20px;
+  color: rgb(13, 219, 150);
+  font-weight: 600;
+}
+.footer__head-icon,
+.positi{
+  font-size: 20px;
+  color: rgb(13, 219, 150);
+  padding: 5px;
+}
+
+.footer__copyright{
+  margin-top: 5px;
+  color: #333;
+  opacity: 0.7;
 }
